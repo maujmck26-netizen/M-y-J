@@ -1,0 +1,549 @@
+/* 1. RESETEO PROFESIONAL RECOMENDADO */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 1rem;
+    background-color: rgb(253, 226, 230);
+    overflow-x: hidden;
+    font-family: "Happy Monkey", system-ui;
+    font-style: normal;
+}
+
+#lirio {
+    background-image: url(../img/lirio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 18rem;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 3.5rem;
+}
+
+#parte-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+    padding: 2rem;
+    width: 100%;
+    background-color: #ffc4c9;
+    border: 3px solid #ffffff;
+    border-radius: 3rem;
+}
+
+
+#parte-1 p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#parte-1 #letras {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    align-items: center;
+    width: 100%;
+}
+
+#parte-1 #letraM {
+    background-image: url(../img/M.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 13rem;
+}
+
+#parte-1 #letraJ {
+    background-image: url(../img/J.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 15rem;
+}
+
+#parte-1 #gif-1 {
+    background-image: url(../img/gracias.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    border-radius: 15px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#parte-2 h2 {
+    margin-left: 5rem;
+    margin-top: 3.5rem;
+}
+
+#parte-3 {
+    display: grid;
+    grid-template-columns: 5fr 1.2fr;
+    grid-gap: 3rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    align-items: center;
+}
+
+#parte-3 h2 {
+    margin-bottom: 2rem;
+}
+
+#parte-3 p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin: auto;
+    text-align: center;
+}
+
+#parte-3 #fotoDeElla {
+    background-image: url(../img/j-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.4);
+}
+
+#parte-4 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#parte-4 #tituloGaleria {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+#parte-4 #galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+#parte-4 div{
+    font-size: 1.15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+
+#flores {
+    background-image: url(../img/flores.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#regalitos {
+    background-image: url(../img/regalitos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    width: 100%;
+}
+
+#cena {
+    background-image: url(../img/cena.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#viajar {
+    background-image: url(../img/viajar.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#algoUnico {
+    background-image: url(../img/algounico.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    width: 10rem;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#concierto {
+    background-image: url(../img/concierto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#apoyarnos {
+    background-image: url(../img/apoyarnos.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#dormir {
+    background-image: url(../img/dormir.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    width: 18rem;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+#mini {
+    background-image: url(../img/mini.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 10px;
+}
+
+#parte-4 #textoGaleria {
+    margin-top: 3.5rem;
+    text-align: center;
+}
+
+#textoGaleria h2 {
+    margin-bottom: 1.5rem;
+}
+
+#textoGaleria p {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-size: 1.3rem;
+}
+
+#finGaleria {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#parte-5 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 3rem;
+}
+
+#parte-5 h2 {
+    font-size: 1.45rem;
+    padding-left: 4.5rem;
+    padding-bottom: 2rem;
+}
+
+#parte-5 #poema {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+#parte-5 #textoPoema {
+    font-size: 1.2rem;
+    line-height: 2.5rem
+}
+
+#parte-5 #dobleFoto {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+#ftPoema-1 {
+    background-image: url(../img/picture1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+#ftPoema-2 {
+    background-image: url(../img/picture2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13rem;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+#ftPoema-3 {
+    background-image: url(../img/picture3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14.3rem;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#despedida {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fondo-animado-rosa {
+    /* Definimos los diferentes tonos de rosado en el gradiente */
+    background: linear-gradient(-45deg, 
+    #ff007f, /* Fucsia neón */
+    #ff66cc, /* Rosa chicle brillante */
+    #ff1493, /* Rosa profundo */
+    #ea80fc, /* Magenta espacial / lila */
+    #ff85a2, /* Rosa encendido */
+    #ff0055  /* Rosa rubí */);
+    
+    /* Hacemos el fondo muy grande para poder desplazarlo */
+    background-size: 400% 400%;
+    
+    /* Vinculamos la animación: dura 15 segundos y es un bucle infinito */
+    animation: cambiarRosa 15s ease infinite;
+}
+
+/* La magia que mueve el fondo entre los tonos de rosa */
+@keyframes cambiarRosa {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2. PANTALLA INICIAL (TELÓN QUE SE DESVANECE) */
+#pantalla-inicial {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(253, 174, 186);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    /* Se posiciona encima de la cuadrícula */
+
+    /* Animación fluida de desvanecimiento */
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+/* Clase de JS para activar el desvanecimiento */
+#pantalla-inicial.desvanecido {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#pantalla-inicial h2 {
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.btn-opcion {
+    padding: 1rem 2rem;
+    margin: 0 0.6rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+.btn-opcion:hover {
+    background-color: #0056b3;
+}
+
+/* Permite que el botón cambie de posición libremente en la pantalla */
+#btn-escurridizo.esquivando {
+    position: absolute;
+    transition: left 0.15s ease, top 0.15s ease;
+    /* Movimiento fluido pero rápido */
+}
+
+
+
+/* 3. ESTRUCTURA FIJA EN CUADRÍCULA 2X2 */
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columnas exactas */
+    gap: 1.6rem;
+    max-width: 800px;
+    margin: 3rem auto 3rem auto;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. VENTANA MODAL (RECTÁNGULO CENTRAL ANIMADO) */
+dialog {
+    border: none;
+    border-radius: 0.8rem;
+    padding: 1.9rem;
+    max-width: 31.25rem;
+    width: 90%;
+    margin: auto;
+    /* Centrado automático vertical y horizontal */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+    /* Configuración para animar transiciones de estados discretos (display) */
+    transition: display 0.4s allow-discrete, overlay 0.4s allow-discrete, opacity 0.4s ease;
+    opacity: 0;
+}
+
+dialog[open] {
+    opacity: 1;
+}
+
+.contenido-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.contenido-modal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+#modal-titulo {
+    font-size: 1.7rem;
+}
+
+#modal-texto {
+    font-size: 1.2rem;
+}
+
+.btn-cerrar {
+    padding: 0.5rem 1rem;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 5. FONDO OSCURO DE DETRÁS (BACKDROP) CON ANIMACIÓN SUAVE */
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    transition: display 0.4s allow-discrete, overlay 0.4s allow-discrete, background-color 0.4s ease, backdrop-filter 0.4s ease;
+}
+
+dialog[open]::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Transparencia oscura al 60% */
+    backdrop-filter: blur(3px);
+    /* Difumina ligeramente los elementos de atrás */
+}
+
+/* Regla que marca el punto inicial exacto antes de que el modal se muestre */
+@starting-style {
+    dialog[open] {
+        opacity: 0;
+    }
+
+    dialog[open]::backdrop {
+        background-color: rgba(0, 0, 0, 0);
+        backdrop-filter: blur(0px);
+    }
+}
